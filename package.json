@@ -2,13 +2,14 @@
   "name": "proje-example",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "jest"
   },
   "devDependencies": {
+    "jest": "^30.0.4",
     "vite": "^5.2.0"
   },
   "dependencies": {
